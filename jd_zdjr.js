@@ -10,7 +10,7 @@ jd_zdjr_activityId  活动ID 必需
 jd_zdjr_activityUrl 活动地址 必需
 
 
-即时任务，无需cron
+cron:1 1 1 1 *
 
 */
 let jd_zdjr_activityId = ''// 活动ID
