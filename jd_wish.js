@@ -5,6 +5,7 @@ export wish_appIdArrList="1E1NXxq0@1FFVQyqw"
 export wish_appNameArrList="众筹许愿池@1111点心动"
 
 cron请根据活动对应的规则设置
+cron:1 1 1 1 *
  */
 const $ = new Env('许愿池-落幕');
 const notify = $.isNode() ? require('./sendNotify') : '';
