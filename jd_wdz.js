@@ -6,7 +6,8 @@
  * @param num 跑多少ck
  * @param againUserIndex 需要重新跑的ck
  * @returns {Promise<unknown>}
-1 1 1 1 * jd_wdz.js
+cron:1 1 1 1 *
+jd_wdz.js
  */
 
 function openCardActivity(activityId, activityUrl, pin, num, againUserIndex) {
