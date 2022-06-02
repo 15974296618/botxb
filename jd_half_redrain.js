@@ -8,11 +8,12 @@
 31 20-23/1 * * * https://raw.githubusercontent.com/KingRan/KR/main/jd_live_redrain.js, tag=半点京豆雨, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 ==============Loon==============
 [Script]
-cron "31 20-23/1 * * *" script-path=https://raw.githubusercontent.com/KingRan/KR/main/jd_redrain_half.js,tag=半点京豆雨
+cron:1 1 1 1 * script-path=https://raw.githubusercontent.com/KingRan/KR/main/jd_redrain_half.js,tag=半点京豆雨
 ================Surge===============
-半点京豆雨 = type=cron,cronexp="31 20-23/1 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/KingRan/KR/main/jd_redrain_half.js
+半点京豆雨 = type=cron,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/KingRan/KR/main/jd_redrain_half.js
 ===============小火箭==========
-半点京豆雨 = type=cron,script-path=https://raw.githubusercontent.com/KingRan/KR/main/jd_redrain_half.js, cronexpr="31 20-23/1 * * *", timeout=3600, enable=true
+半点京豆雨 = type=cron,script-path=https://raw.githubusercontent.com/KingRan/KR/main/jd_redrain_half.js, timeout=3600, enable=true
+cron:1 1 1 1 *
 */
 const $ = new Env('半点京豆雨-落幕');
 let allMessage = '', id = '';
