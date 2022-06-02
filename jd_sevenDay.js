@@ -6,7 +6,8 @@
 
 环境变量:
 SEVENDAY_LIST,SEVENDAY_LIST2,SEVENDAY_LIST3
-1 1 1 1 * jd_sevenDay.js
+cron:1 1 1 1 *
+jd_sevenDay.js
 */
 const $ = new Env('超级无线店铺签到-落幕');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
