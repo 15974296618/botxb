@@ -2,7 +2,7 @@
 #女装盲盒抽京豆任务，自行加入一下环境变量
 export jd_nzmhurl="https://anmp.jd.com/babelDiy/Zeus/2x36jyruNVDWxUiAiGAgHRrkqVX2/index.html"
 
-cron 35 1,23 * * *
+cron:1 1 1 1 *
  */
 
 const $ = new Env('女装盲盒京豆-落幕');
