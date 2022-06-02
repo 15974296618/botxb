@@ -15,13 +15,14 @@ const notify = $.isNode() ? require('./sendNotify') : '';
 let cookiesArr = [], cookie = '', message = '';
 // https://lzkj-isv.isvjcloud.com/sign/sevenDay/signActivity?activityId=
 let activityIdList = [
+    'b0069261b7a4456383bf2269e1db8436',
 ]
 // https://lzkj-isv.isvjcloud.com/sign/signActivity2?activityId=
 let activityIdList2 = [
-
+    "307cc53298054e99a2cc5ab082444607",
 ]
 let activityIdList3 = [
-
+    '88a237c4662d44be9cbc93b7f33b20f8',
 ]
 let lz_cookie = {}
 let CookieNum = 10;
