@@ -28,7 +28,8 @@ step 2 : 对body 进行两次url解码   得到地址https://h5.m.jd.com/babelDi
 =================================Quantumultx=========================
 [task_local]
 #店铺签到
-10 11 * * * https://raw.githubusercontent.com/jiulan/platypus/main/scripts/jd_shop_sign.js, tag=店铺签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+cron:1 0 0 * * *
+https://raw.githubusercontent.com/jiulan/platypus/main/scripts/jd_shop_sign.js, tag=店铺签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 =================================Loon===================================
 [Script]
 cron "10 1,9 * * *" script-path=https://raw.githubusercontent.com/jiulan/platypus/main/scripts/jd_shop_sign.js,tag=京东零食街
