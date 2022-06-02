@@ -1,3 +1,6 @@
+/*
+cron:1 1 1 1 *
+*/
 let mode = __dirname.includes('magic')
 const {Env} = mode ? require('./utils/magic.js') : require('./utils/magic.js')
 const $ = new Env('M集卡抽奖-落幕');
