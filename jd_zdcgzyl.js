@@ -1,3 +1,7 @@
+/*
+cron:1 1 1 1 *
+*/
+
 let mode = __dirname.includes('magic1')
 const {Env} = mode ? require('./function/magic1') : require('./function/magic1')
 const $ = new Env('M关注有礼2-落幕');
