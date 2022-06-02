@@ -2,8 +2,10 @@
 #电脑配件ID任务jd_computer,自行加入以下环境变量，多个ID用@连接
 export computer_activityIdList="17"  
 
-即时任务，无需cron
+即时任务
 */
+
+cron:1 1 1 1 *	
 
 const $ = new Env('电脑配件通用ID任务-落幕');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
