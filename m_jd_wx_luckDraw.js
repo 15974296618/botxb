@@ -1,3 +1,6 @@
+/*
+cron:1 1 1 1 *
+*/
 let mode = __dirname.includes('/home/magic/Work/wools/magic/raw')
 
 const {Env} = mode ? require('../magic') : require('./utils/magic.js')
