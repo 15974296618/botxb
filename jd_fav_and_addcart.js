@@ -1,14 +1,14 @@
 /*
 甘露殿-https://t.me/jdredrain
 
-自动车监控脚本-联合关注+加购+分享领豆
+联合关注+加购+分享领豆
 https://raw.githubusercontent.com/msechen/jdrain/main/fav_and_addcart.js
 
 
 即时任务
 cron:1 1 1 1 *
 */
-const $ = new Env('自动车-联合关注+加购+分享领豆');
+const $ = new Env('联合关注+加购+分享领豆-落幕');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const notify = $.isNode() ? require('./sendNotify') : '';
 let guaunknownTask_addSku = "true"
