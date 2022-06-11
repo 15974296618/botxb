@@ -14,7 +14,7 @@ cron:1 1 1 1 *
 
 */
 let jd_zdjr_activityId = ''// 活动ID
-let jd_zdjr_activityUrl = ''// 活动地址
+let jd_zdjr_activityUrl = 'https://lzkjdz-isv.isvjcloud.com'// 活动地址
 
 const $=new Env('组队瓜分京豆-落幕');
 const notify=$.isNode()?require('./sendNotify'):'';
