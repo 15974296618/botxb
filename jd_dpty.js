@@ -22,7 +22,7 @@
 1 1 1 1 * jd_opencardDPLHTY.js, tag=大牌联合通用开卡, enabled=true
 cron:1 1 1 1 *
 */
-const $ = new Env("大牌联合通用开卡-加密");
+const $ = new Env("大牌联合通用开卡-加密-落幕");
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const notify = $.isNode() ? require('./sendNotify') : '';
 let cookiesArr = [],
